@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cybernetvpn.cybernetvpn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bnnnn"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewMainActivity"
+            android:label=""
+            android:theme="@style/Custom" />
+        <activity
+            android:name=".LoadingActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PrivateBrowsingActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:label="@string/title_activity_browser"
+            android:parentActivityName=".NewMainActivity"
+            android:theme="@style/BrowserTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cybernetvpn.cybernetvpn.NewMainActivity" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".NewMainActivity"
+            android:theme="@style/BrowserTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cybernetvpn.cybernetvpn.NewMainActivity" />
+        </activity>
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/title_activity_contact"
+            android:parentActivityName=".NewMainActivity"
+            android:theme="@style/Custom">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cybernetvpn.cybernetvpn.NewMainActivity" />
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName=".NewMainActivity"
+            android:theme="@style/Custom">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cybernetvpn.cybernetvpn.NewMainActivity" />
+        </activity>
+        <activity
+            android:name=".VpnServerListActivity"
+            android:label="Choose VPN Server"
+            android:parentActivityName=".NewMainActivity"
+            android:theme="@style/Custom">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cybernetvpn.cybernetvpn.NewMainActivity" />
+        </activity>
+        <activity
+            android:name=".FeedBackActivity"
+            android:label="@string/title_activity_feed_back"
+            android:parentActivityName=".NewMainActivity"
+            android:theme="@style/Custom">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cybernetvpn.cybernetvpn.NewMainActivity" />
+        </activity>
+        <activity
+            android:name="de.blinkt.openvpn.VpnAuthActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity=".DisconnectVPN"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name="de.blinkt.openvpn.DisconnectVPNActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity=".DisconnectVPN"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" /> <!-- android:autoRemoveFromRecents="true" -->
+
+        <service
+            android:name="de.blinkt.openvpn.core.OpenVPNService"
+            android:permission="android.permission.BIND_VPN_SERVICE">
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".VpnServerActivityList"
+            android:label="@string/title_activity_vpn_server_list"
+            android:theme="@style/Custom" />
+
+
+        <activity
+            android:name=".PrivacyPolicy"
+            android:label="@string/title_activity_privacy_policy"
+            android:parentActivityName=".NewMainActivity"
+            android:theme="@style/Custom">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cybernetvpn.cybernetvpn.NewMainActivity" />
+        </activity>
+    </application>
+
+</manifest>

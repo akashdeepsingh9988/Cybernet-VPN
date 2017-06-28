@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e24136</color>
+    <color name="colorPrimaryDark">#171515</color>
+    <color name="colorAccent">#d7493e</color>
+    <color name="orange">#FF9900</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+    <color name="fab_color_pressed">#007787</color>
+    <color name="fab_color_shadow">#44000000</color>
+    <color name="text_like_counter">#2b5a83</color>
+    <color name="paint_color">#dddddd</color>
+    <color name="accent_material_light">#f2f6f6</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_group_1">
+        <item
+            android:id="@+id/google"
+            android:icon="@drawable/g2"
+            android:title="Google" />
+        <item
+            android:id="@+id/facebook"
+            android:icon="@drawable/fb"
+            android:title="FaceBook" />
+        <item
+            android:id="@+id/my_ip"
+            android:icon="@drawable/ipt"
+            android:title="My IP" />
+        <item
+            android:id="@+id/save_url"
+            android:icon="@drawable/delete"
+            android:title="Clear Browsing Data" />
+        <item
+            android:id="@+id/about_private_browsing"
+            android:icon="@drawable/info"
+            android:title="About Private Browsing" />
+
+        <item
+            android:id="@+id/menu_upgrade"
+            android:icon="@drawable/ic_upgrade"
+            android:title="Upgrade" />
+
+    </group>
+    <group android:id="@+id/menu_group_2">
+        <item
+            android:id="@+id/menu_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/menu_about"
+            android:title="About" />
+        <item
+            android:id="@+id/menu_contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/menu_feedback"
+            android:title="FeedBack" />
+    </group>
+</menu>

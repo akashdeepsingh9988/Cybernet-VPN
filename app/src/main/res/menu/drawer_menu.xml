@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_group_1">
+        <item
+            android:id="@+id/menu_connect"
+            android:icon="@drawable/ic_connect"
+            android:title="Connect" />
+
+        <item
+            android:id="@+id/menu_private_browsing"
+            android:icon="@drawable/ic_private_browsing"
+            android:title="Private Browsing" />
+
+        <item
+            android:id="@+id/menu_vpn_server"
+            android:icon="@drawable/ic_global_menu_nearby"
+            android:title="Choose VPN Server" />
+
+
+        <item
+            android:id="@+id/menu_my_ip"
+            android:icon="@drawable/ic_myip"
+            android:title="My IP" />
+        <item
+            android:id="@+id/privacy_policy"
+            android:icon="@drawable/info"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/menu_upgrade"
+            android:icon="@drawable/ic_upgrade"
+            android:title="Upgrade" />
+
+    </group>
+    <group android:id="@+id/menu_group_2">
+        <item
+            android:id="@+id/menu_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/menu_about"
+            android:title="About" />
+        <item
+            android:id="@+id/menu_contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/menu_feedback"
+            android:title="FeedBack" />
+    </group>
+</menu>

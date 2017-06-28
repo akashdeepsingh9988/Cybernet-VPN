@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        cybernet {
+            keyAlias 'alias'
+            keyPassword 'passsword'
+            storeFile file('path ')
+            storePassword 'store password'
+        }
+    }
+
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.cybernetvpn.cybernetvpn"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 3
+        versionName "1.1"
+        applicationId "com.cybernetvpn.cybernetvpn"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        //vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        signingConfig signingConfigs.cybernet
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            //shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.cybernet
+            debuggable false
+        }
+        debug {
+            //debuggable false
+            //signingConfig signingConfigs.cybernet
+        }
+    }
+    productFlavors {
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'be.appfoundry.progressbuttonlibrary:progressbutton:0.9.3'
+    compile 'cn.pedant.sweetalert:library:1.3'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.uncopt:android.justified:1.0'
+    compile 'com.github.florent37:materialtextfield:1.0.7'
+    compile 'com.android.support:design:25.1.0'
+    compile 'com.romainpiel.shimmer:library:1.4.0@aar'
+    compile 'com.tuyenmonkey:mkloader:1.2.0'
+    compile 'com.android.support:cardview-v7:25.1.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.mxn.soul:flowingdrawer-core:2.0.0'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.squareup.picasso:picasso:2.5.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+}

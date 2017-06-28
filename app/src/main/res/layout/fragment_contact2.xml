@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context="com.cybernetvpn.cybernetvpn.ContactActivityFragment2"
+   >
+
+    <ImageView
+        android:id="@+id/checkedTextView2"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:src="@drawable/needhelp2"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:src="@drawable/cs"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/checkedTextView2"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/need_help_please_reachout_to_us"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/emailc"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView12"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/webc"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/phonec"
+        android:layout_alignTop="@+id/imageView11"
+        android:layout_toLeftOf="@+id/imageView4"
+        android:layout_toStartOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cybernet VPN"
+        android:textSize="14sp"
+        android:layout_below="@+id/imageView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version : 1.0"
+        android:textSize="14sp"
+        android:layout_alignTop="@id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copyright © 2017 CyberNet"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView13"
+        android:layout_alignParentBottom="true"
+         />
+
+
+</RelativeLayout>

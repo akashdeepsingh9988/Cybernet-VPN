@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">CyberNet VPN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main_bottom">MainBottomActivity</string>
+    <string name="browser">Browser</string>
+    <string name="apimap">AIzaSyCOKhLMvn1jigOEx2O2z9mBMqnVjfXLaKk</string>
+    <string name="user_profile_photo">http://akash-deep.in/bv2.png</string>
+    <string name="ipd">The IP Address is a unique address that computing devices such as
+    personal computers, tablets, and smartphones use to identify itself and communicate with other devices in the IP network.
+
+
+</string>
+
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="reload">Reload</string>
+
+
+    <string name="action_reply">Reply</string>
+    <string name="title_activity_browser"> </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="ip">ip</string>
+    <string name="title_activity_tab_test">TabTestActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_contact">Contact Us</string>
+    <string name="title_activity_about_us">About</string>
+    <string name="title_activity_feed_back">FeedBack</string>
+
+    <string name="title_activity_about">About</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="cybernet_vpn">CyberNet VPN</string>
+    <string name="need_help_please_reachout_to_us">Need Help? Please reachout to us.</string>
+    <string name="all_rights_reserved">All rights reserved</string>
+    <string name="contact_cybernetvpn_com">contact@cybernetvpn.com</string>
+    <string name="www_cybernetvpn_com">www.cybernetvpn.com</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+    <string name="your_feedback_is_valueable_for_us">Your feedback is valueable for us</string>
+    <string name="no_keystore_cert_selected">No Keystore</string>
+    <string name="no_error_found">NO Error</string>
+    <string name="ipv4_format_error">Ip format error</string>
+    <string name="custom_route_format_error">Route error</string>
+    <string name="route_rejected">Route rejected</string>
+    <string name="cancel_connection">Cancel Connection</string>
+    <string name="title_cancel">Cancel</string>
+    <string name="cancel_connection_query">Do you want to disconnect?</string>
+    <string name="tun_error_helpful">Error Helpful</string>
+    <string name="tun_open_error">Tunnel error</string>
+    <string name="error">Error</string>
+    <string name="last_openvpn_tun_config">config</string>
+    <string name="local_ip_info">Local IP</string>
+    <string name="dns_server_info">DNS</string>
+    <string name="routes_info_incl">Route</string>
+    <string name="routes_info_excl">Route 2</string>
+    <string name="routes_debug">VpnService debug</string>
+    <string name="ip_not_cidr">IP Not</string>
+    <string name="route_not_cidr">Route 3</string>
+    <string name="route_not_netip">Route 4</string>
+    <string name="keychain_access">keychain></string>
+    <string name="opentun_no_ipaddr">opentunnel ip</string>
+    <string name="pkcs12_file_encryption_key">PKCS12</string>
+    <string name="private_key_password">password</string>
+    <string name="password">password</string>
+    <string name="building_configration">config</string>
+    <string name="netstatus">Status ： %s</string>
+    <string name="keychain_nocacert">在 Android Keychain</string>
+    <string name="mobile_info">%10$s %9$s running on %3$s %1$s (%2$s), Android %6$s (%7$s) API %4$d, ABI %5$s, (%8$s)</string>
+    <string name="error_rsa_sign">与 Error ： %2$s</string>
+    <string name="warn_no_dns">No dns</string>
+    <string name="dns_add_error">Add error</string>
+    <string name="ip_add_error">Ip add error</string>
+    <string name="getproxy_error">proxy error</string>
+    <string name="using_proxy">proxy</string>
+    <string name="minidump_generated">VPN</string>
+    <string name="notifcation_title">Cybernet</string>
+    <string name="session_ipv4string">%1$s - %2$s</string>
+    <string name="session_ipv6string">%1$s - %3$s, %2$s</string>
+    <string name="state_connecting">Connecting</string>
+    <string name="state_wait">Waiting</string>
+    <string name="state_auth">Authenticating</string>
+    <string name="state_get_config">get config</string>
+    <string name="state_assign_ip">IP : </string>
+    <string name="state_add_routes">state add route</string>
+    <string name="state_connected">Connected</string>
+    <string name="state_disconnected">Disconnected</string>
+    <string name="state_reconnecting">Reconnecting</string>
+    <string name="state_exiting">Exiting</string>
+    <string name="state_noprocess">No process</string>
+    <string name="state_resolve">resolve</string>
+    <string name="state_tcp_connect">(TCP)</string>
+    <string name="state_auth_failed">Failed</string>
+    <string name="state_nonetwork">No network</string>
+    <string name="statusline_bytecount">↓%2$s/s %1$s - ↑%4$s/s %3$s</string>
+    <string name="notifcation_title_notconnect">Not connected</string>
+    <string name="jelly_keystore_alphanumeric_bug">bug</string>
+    <string name="built_by">Cybernet</string>
+    <string name="debug_build">Cybernet</string>
+    <string name="official_build">Cybernet</string>
+    <string name="screenoff_pause">Screen pause: %1$s</string>
+    <string name="screen_nopersistenttun">scrren nop</string>
+    <string name="pauseVPN">Pause protection</string>
+    <string name="resumevpn">Resume protection</string>
+    <string name="state_userpause">Pause VPN</string>
+    <string name="state_screenoff">VPN screen off</string>
+    <string name="cannotparsecert">part secret</string>
+    <string name="keyChainAccessError">keychain error： %s</string>
+    <string name="unhandled_exception">Exception： %1$s\n\n%2$s</string>
+    <string name="unhandled_exception_context">%3$s: %1$s\n\n%2$s</string>
+    <string name="ip_looks_like_subnet">subnet</string>
+    <string name="allowed_vpn_apps_info">Cybernet： %1$s</string>
+    <string name="disallowed_vpn_apps_info">Cybernet：%1$s</string>
+    <string name="app_no_longer_exists">No exist %s</string>
+    <string name="remote_no_server_selected">No server found</string>
+    <string name="ignore_multicast_route">ignore m route</string>
+    <string name="service_restarted">Restarted</string>
+    <string name="no_allowed_app">Not Allowed</string>
+    <string name="abi_mismatch">Preferred native ABI precedence of this device (%1$s) and ABI reported by native libraries (%2$s) mismatch</string>
+    <string name="months_left">Months Left</string>
+    <string name="days_left">Days Left</string>
+    <string name="hours_left">Hours Left</string>
+    <string name="permission_revoked">Permission revoked</string>
+    <string name="missing_tlsauth">tls-auth</string>
+    <string name="missing_certificates">certificate missing</string>
+    <string name="missing_ca_certificate">ca missing</string>
+    <string name="reread_log">log read</string>
+    <string name="state_waitconnectretry">Waiting to connect</string>
+    <string name="unknown_state">unknown error</string>
+    <string name="title_activity_vpn_server_list">Choose VPN Server</string>
+    <string name="exitvalue">Exit</string>
+    <string name="title_activity_privacy_policy">Privacy Policy</string>
+</resources>

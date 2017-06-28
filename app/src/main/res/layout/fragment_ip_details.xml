@@ -1,0 +1,181 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cybernetvpn.cybernetvpn.IpDetailsFragment">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_height="300dp"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/cardView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ipd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="ISP"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="14dp"
+                android:layout_above="@+id/textView8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="22dp"
+                android:text="0.0.0.0"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ipd"
+                android:layout_alignStart="@+id/ipd"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:text="COUNTRY" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView8"
+                android:layout_alignStart="@+id/textView8"
+                android:layout_below="@+id/textView8"
+                android:textSize="18sp"
+                android:layout_marginTop="22dp"
+                android:text="STATE" />
+
+            <TextView
+                android:id="@+id/txisp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text=""
+                android:layout_alignBaseline="@+id/ipd"
+                android:layout_alignBottom="@+id/ipd"
+                android:layout_toRightOf="@+id/textView8"
+                android:layout_toEndOf="@+id/textView8"
+                android:layout_marginLeft="60dp"
+                android:layout_marginStart="60dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView9"
+                android:layout_alignStart="@+id/textView9"
+                android:textSize="18sp"
+                android:layout_below="@+id/textView9"
+                android:layout_marginTop="29dp"
+                android:text="CITY" />
+
+            <TextView
+                android:id="@+id/txcountry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txisp"
+                android:layout_alignStart="@+id/txisp"
+                android:textSize="18sp"
+                android:layout_centerVertical="true"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txstate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/textView9"
+                android:layout_alignLeft="@+id/txcountry"
+                android:layout_alignStart="@+id/txcountry" />
+
+            <TextView
+                android:id="@+id/txcity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txstate"
+                android:textSize="18sp"
+                android:layout_alignStart="@+id/txstate"
+                android:layout_alignTop="@+id/textView10"
+                android:text="" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/cardView"
+        android:layout_alignLeft="@+id/cardView"
+        android:layout_alignStart="@+id/cardView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/easy"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ipd"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/imageView3"
+                android:layout_toEndOf="@id/imageView3" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+<View android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_marginTop="30dp"
+    android:layout_below="@+id/card"
+    />
+
+</RelativeLayout>
+</ScrollView>
